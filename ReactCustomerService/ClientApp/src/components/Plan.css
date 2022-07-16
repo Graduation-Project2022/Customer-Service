@@ -1,0 +1,52 @@
+.cont {
+    background-color: rgba(128, 128, 128, 0.1) !important;
+    color: rgb(33, 33, 143);
+    font-weight: 800;
+
+}
+
+.big {
+    display: grid !important;
+    justify-content: center !important;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.collection {
+    display: relative !important;
+    padding-left: 5px;
+    color: black;
+    padding-top: 2px;
+    height: fit-content;
+    margin: 50px !important;
+    border-radius: 15px !important;
+}
+.quatitycolor {
+    color: red;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.secondplan {
+    color: black;
+    font-weight: 200;
+    font-size:1.2em;
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 2px;
+    padding-left: 5px;
+}
+
+.subscripe {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    border-radius: 4px;
+    border-color: rgba(128, 128, 128, 0.1);
+    background: #525252;
+    background: -webkit-linear-gradient(to right, #3d72b4, #525252);
+    background: linear-gradient(to right, #3d72b4, #525252);
+}
